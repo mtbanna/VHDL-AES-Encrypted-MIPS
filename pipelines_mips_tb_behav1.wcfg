@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipelines_mips_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="pipelines_mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1025490196fs"></ZoomStartTime>
+      <ZoomEndTime time="2194901961fs"></ZoomEndTime>
+      <Cursor1Time time="2000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="211"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/pipelines_mips_tb/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/enable_reading_instructions" type="logic">
+      <obj_property name="ElementShortName">enable_reading_instructions</obj_property>
+      <obj_property name="ObjectShortName">enable_reading_instructions</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/branch_taken" type="logic">
+      <obj_property name="ElementShortName">branch_taken</obj_property>
+      <obj_property name="ObjectShortName">branch_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/compiler_store_address" type="array">
+      <obj_property name="ElementShortName">compiler_store_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">compiler_store_address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/compiler_input" type="array">
+      <obj_property name="ElementShortName">compiler_input[127:0]</obj_property>
+      <obj_property name="ObjectShortName">compiler_input[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/stop_the_clock" type="other">
+      <obj_property name="ElementShortName">stop_the_clock</obj_property>
+      <obj_property name="ObjectShortName">stop_the_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider43">
+      <obj_property name="label">Fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_instruction_fetch_and_memory_access_and_crypto/my_instruction_fetch_and_memory_access/program_counter" type="array">
+      <obj_property name="ElementShortName">program_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_instruction_fetch_and_memory_access_and_crypto/next_program_counter" type="array">
+      <obj_property name="ElementShortName">next_program_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">next_program_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_instruction_fetch_and_memory_access_and_crypto/instruction_output" type="array">
+      <obj_property name="ElementShortName">instruction_output[127:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_output[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider45">
+      <obj_property name="label">Decode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/out1" type="array">
+      <obj_property name="ElementShortName">out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/out2" type="array">
+      <obj_property name="ElementShortName">out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/sign_extended" type="array">
+      <obj_property name="ElementShortName">sign_extended[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sign_extended[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/next_pc" type="array">
+      <obj_property name="ElementShortName">next_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider48">
+      <obj_property name="label">Alu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_alu/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_alu/sign_xtd" type="array">
+      <obj_property name="ElementShortName">sign_xtd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sign_xtd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_alu/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/regFile/registers[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/regFile/registers[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/regFile/registers[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_decode_and_alu/my_decode/regFile/registers[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider61">
+      <obj_property name="label">Access</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_instruction_fetch_and_memory_access_and_crypto/write_enable_in_registers" type="array">
+      <obj_property name="ElementShortName">write_enable_in_registers[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_enable_in_registers[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_instruction_fetch_and_memory_access_and_crypto/loaded_data" type="array">
+      <obj_property name="ElementShortName">loaded_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">loaded_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider65">
+      <obj_property name="label">Write back</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_write_back_pipelined_alone/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_write_back_pipelined_alone/enable_out" type="logic">
+      <obj_property name="ElementShortName">enable_out</obj_property>
+      <obj_property name="ObjectShortName">enable_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/uut/my_write_back_pipelined_alone/loaded_data_dec_in" type="array">
+      <obj_property name="ElementShortName">loaded_data_dec_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loaded_data_dec_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider43">
+      <obj_property name="label">Debug</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelines_mips_tb/instruction_output_for_control_unit" type="array">
+      <obj_property name="ElementShortName">instruction_output_for_control_unit[127:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_output_for_control_unit[127:0]</obj_property>
+   </wvobject>
+</wave_config>
